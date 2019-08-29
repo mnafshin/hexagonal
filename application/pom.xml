@@ -2,14 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>hexagon</artifactId>
+        <groupId>com.baeldung</groupId>
+        <version>1.0.0</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.baeldung</groupId>
-    <artifactId>hexagon</artifactId>
-    <version>1.0.0</version>
-    <modules>
-        <module>application</module>
-    </modules>
-    <packaging>pom</packaging>
+    <artifactId>application</artifactId>
+
 
 </project>
